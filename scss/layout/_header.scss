@@ -1,0 +1,55 @@
+.header {
+  padding-top: var(--span-m);
+  @media only screen and (max-width: 600px) {
+    padding-top: var(--span-s);
+  }
+
+  &__overlay {
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+    &--left {
+      background-size: contain;
+      width: 600px;
+      height: 600px;
+      top: 0;
+      left: 0;
+      background-image: url(../assets/svgs/curvy-background-orange.svg);
+
+      @media only screen and (min-width: 1800px) {
+        display: none;
+      }
+
+      @media only screen and (max-width: 1200px) {
+        display: none;
+      }
+
+      @media only screen and (max-width: 600px) {
+        display: block;
+        width: 350px;
+        height: 350px;
+      }
+    }
+
+    &--right {
+      background-size: cover;
+      width: 600px;
+      height: 900px;
+      top: 0;
+      right: 0;
+      background-image: url(../assets/svgs/curvy-background-blue.svg);
+      @media only screen and (min-width: 1800px) {
+        display: none;
+      }
+
+      @media only screen and (max-width: 1200px) {
+        display: none;
+      }
+
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}

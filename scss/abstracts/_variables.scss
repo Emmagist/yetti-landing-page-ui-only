@@ -1,0 +1,61 @@
+:root {
+  --unit: 10px;
+  --Poppins: "Poppins", sans-serif;
+  --Montserrat: "Montserrat", sans-serif;
+
+  //font sizes
+  --size-xs: 12px;
+  --size-s: 14px;
+  --size-m: 16px;
+  --size-l: 24px;
+  --size-xl: 32px;
+  --size-2xl: 48px;
+
+  //space
+  --span-xs: var(--unit);
+  --span-s: calc(var(--unit) * 2);
+  --span-m: calc(var(--unit) * 3);
+  --span-l: calc(var(--unit) * 4);
+  --span-xl: calc(var(--unit) * 5);
+  --span-2xl: calc(var(--unit) * 6);
+
+  //font weights
+  --weight-xsm: 300;
+  --weight-sm: 400;
+  --weight-md: 500;
+  --weight-lg: 600;
+  --weight-xlg: 700;
+  --weight-xxlg: 800;
+  --weight-2xxlg: 900;
+
+  // colors
+  --white: #ffffff;
+  --body-background: #fdfdfd;
+  --link-gray: #b0b0b0;
+  --link-hover: #e07b02;
+  --orange: #ffbb45;
+  --btn-login: #02a7f4;
+  --btn-sign-up: #c4c4c408;
+  --btn-border: #a5b0b5;
+  --header: #002e42;
+  --text-gray: #5e787f;
+  --card-border: #a5b0b5;
+  --card-index-1: #ffeeda;
+  --card-index-2: #89d6fb2b;
+  --card-index-3: #99c4d7;
+  --card-index-text: #002e42;
+  --card-text: #888f93;
+  --text-blue: #02a4f0;
+  --offers-1: #f1fbff;
+  --offers-2: #fffbf5;
+  --coming-soon: #ffe8ce;
+  --footer-bg: #292929;
+  --copyright: #b0b0b0;
+  --input-border: #bbc4c7;
+  --input-background: #f6f8fa;
+  --btn-background: #02577a;
+  --icon-stroke: #a5b0b5;
+
+  --navTransition: all 0.3s cubic-bezier(0.65, 0, 0.35, 1), opacity 0.3s ease;
+  --iconStroke: #828282;
+}

@@ -1,0 +1,10 @@
+.logo {
+  display: block;
+  @media only screen and (max-width: 600px) {
+    width: 80px;
+    height: 40px;
+  }
+  &-link {
+    display: inline-block;
+  }
+}

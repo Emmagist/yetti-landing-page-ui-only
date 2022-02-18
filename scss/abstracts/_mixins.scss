@@ -1,0 +1,14 @@
+@mixin hover($color, $height) {
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: $height;
+    width: 100%;
+    z-index: 3;
+    will-change: transform, color;
+    background-color: var($color);
+  }
+}
