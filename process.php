@@ -1,10 +1,10 @@
 <?php
 
     // Create connection
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $database = "yetti";
+    $servername = "db4free.net";
+    $username = "emmargist_204";
+    $password = "emma1994204";
+    $database = "equipe2upgrade";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $database);
