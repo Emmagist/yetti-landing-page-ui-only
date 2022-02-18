@@ -743,7 +743,7 @@
             <form action="" method="post" class="form" id="letterForm">
               <h1 class="form__header">Subscribe to our Newsletter</h1>
               <?php if(! empty($error)): echo "<li style='background:lightpink;color:#fff;padding:15px;margin-top:5px;text-align:center;list-style:none;font-size:18px'>".$error."</li>"; endif ?>
-              <?php if(isset($success)): echo "<li style='background:lightgreen;color:#fff;padding:15px;margin-top:5px;text-align:center;list-style:none;font-size:18px'>".$success."</li>"; endif ?>
+              <?php if(! empty($success)): echo "<li style='background:lightgreen;color:#fff;padding:15px;margin-top:5px;text-align:center;list-style:none;font-size:18px'>".$success."</li>"; endif ?>
               <div class="form__group">
                 <input
                   type="email"
